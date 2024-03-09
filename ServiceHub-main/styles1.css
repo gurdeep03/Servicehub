@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fugaz+One&family=Homemade+Apple&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patrick+Hand&family=Satisfy&family=Yanone+Kaffeesatz:wght@200..700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:  #e6f0df;
+    font-family: Raleway;
+  }
+  .logo img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    margin-bottom: 5px;
+  }
+  #name{
+    margin-top: -20px;
+  }
+  #email{
+    margin-top: -20px;
+  }
+  #password{
+    margin-top: -20px;
+  }
+  #confirm-password{
+    margin-top: -20px;
+  }
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    margin-bottom: 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-form button[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+  
+  .register-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .register-form p {
+    margin-top: 10px;
+    text-align: center;
+  }
